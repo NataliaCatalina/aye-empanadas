@@ -1,0 +1,35 @@
+@mixin dimension($w,$h){
+  width:$w;
+  height:$h;
+}
+
+
+@mixin list($ls,$td,$c){
+  list-style: $ls;
+  text-decoration: $td;
+  color: $c;
+}
+
+@mixin fonts($fs,$fw,$c,$ta){
+  font-size: $fs;
+  font-weight: $fw;
+  color:$c;
+  text-align:$ta;
+}
+
+@mixin center($m,$d){
+  margin: $m;
+  display: $d;
+}
+
+@mixin icons($ml,$mp,$p){
+  margin-left:$ml;
+  margin-top:$mp;
+  position:$p;
+}
+
+@mixin box($b,$p,$br){
+  background: $b;
+  padding: $p;
+  border-radius: $br;
+}

@@ -1,0 +1,148 @@
+@media screen and (max-width:600px){
+
+.go-top{
+  display: none;
+}
+
+.top-nav{
+  display: none;
+}
+.nav-banner{
+  display: none;
+}
+
+//--nav
+
+.top-nav__mobile{
+  @include dimension(100%,60px);
+  color: $color_light-blue;
+  border-bottom: 4px solid $color_light-blue;
+}
+
+.fa-bars{
+  float: right;
+}
+
+.drop-nav__mobile{
+  @include dimension(100%,667px);
+  background: $color_light-blue;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 20%;
+  li{
+    @include list(none,none,$color_gray);
+    margin: 0 15%;
+    border-bottom: 3px solid $color_yellow;
+    text-align: center;
+    a{
+      color: $color_gray;
+      text-decoration: none;
+    }
+ }
+}
+
+a:hover{
+  color: $color_yellow;
+}
+
+.logo{
+  @include dimension(70%,auto);
+  @include center (auto,block);
+}
+
+
+
+// **************MENU SECTION
+
+
+.blue-line{
+  @include dimension(50%,auto);
+  border-bottom: 2px solid $color_light-blue;
+  @include center (auto,block);
+  margin-bottom: 5%;
+}
+
+ // ************EMPANADAS
+
+ .box__empanadas--menu{
+   @include dimension(100%,auto);
+ }
+
+ .box__empanadas {
+   @include dimension(70%,auto);
+   @include box($color_white,10px,10px);
+   margin-bottom: 10px;
+   margin-left: 15%;
+ }
+
+.btn__box{
+  @include dimension(100%,20px);
+  margin-top: 30%;
+}
+
+.photo-empanadas{
+  @include dimension(80%,auto);
+  @include center (auto,block);
+}
+
+ .info__type-price{
+   text-align: center;
+   h2{
+     @include fonts (20px,medium,$color_gray,center);
+     margin-top: 3px;
+  }
+ }
+
+
+//  ********************************** about
+
+.aye-photo__mobil{
+  width: 80%;
+  @include center (auto,block);
+}
+
+.aye-photo__desktop{
+  display: none;
+}
+
+.information-text{
+     @include fonts (18px,normal,$color_black,center);
+     margin: 10%;
+   }
+
+
+//**********************************contact us
+
+.contact{
+@include dimension(80%,auto);
+@include center (auto,block);
+padding: 1%;
+}
+
+.information-text__contact{
+  @include dimension(80%,auto);
+  text-align: center;
+}
+
+
+  .map {
+    @include dimension(100%,359px);
+    @include center (auto,block);
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+
+// ********************************* footer
+
+footer{
+  @include dimension (100%,auto);
+  background: $color_gray;
+    p{
+     @include fonts (18px,bold,$color_light-white,center);
+    padding: 3%;
+    }
+}
+
+
+
+} //end of mobile

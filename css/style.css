@@ -1,0 +1,541 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.icon {
+  font-size: 42px;
+  color: #A3CEF1;
+  margin: 0;
+  text-align: center;
+  float: left;
+  width: 10%;
+  height: auto;
+  padding: 5px;
+  margin: 5px; }
+
+.title_menu h1 {
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  color: #565759; }
+
+.menu__box--icon {
+  color: #E8AA3F; }
+
+.empanadas-description {
+  font-weight: 300;
+  font-size: 16px;
+  margin: 4% 0; }
+
+.information-text__contact {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  margin-left: 10%; }
+
+.totalAmount {
+  text-align: center; }
+
+.clearfix::after {
+  clear: both;
+  display: table;
+  content: ""; }
+
+.row {
+  width: 100%;
+  height: auto;
+  min-height: 100px; }
+
+.col {
+  float: left; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+@media screen and (max-width: 600px) {
+  .go-top {
+    display: none; }
+
+  .top-nav {
+    display: none; }
+
+  .nav-banner {
+    display: none; }
+
+  .top-nav__mobile {
+    width: 100%;
+    height: 60px;
+    color: #A3CEF1;
+    border-bottom: 4px solid #A3CEF1; }
+
+  .fa-bars {
+    float: right; }
+
+  .drop-nav__mobile {
+    width: 100%;
+    height: 667px;
+    background: #A3CEF1;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 20%; }
+    .drop-nav__mobile li {
+      list-style: none;
+      text-decoration: none;
+      color: #565759;
+      margin: 0 15%;
+      border-bottom: 3px solid #E8AA3F;
+      text-align: center; }
+      .drop-nav__mobile li a {
+        color: #565759;
+        text-decoration: none; }
+
+  a:hover {
+    color: #E8AA3F; }
+
+  .logo {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block; }
+
+  .blue-line {
+    width: 50%;
+    height: auto;
+    border-bottom: 2px solid #A3CEF1;
+    margin: auto;
+    display: block;
+    margin-bottom: 5%; }
+
+  .box__empanadas--menu {
+    width: 100%;
+    height: auto; }
+
+  .box__empanadas {
+    width: 70%;
+    height: auto;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%; }
+
+  .btn__box {
+    width: 100%;
+    height: 20px;
+    margin-top: 30%; }
+
+  .photo-empanadas {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block; }
+
+  .info__type-price {
+    text-align: center; }
+    .info__type-price h2 {
+      font-size: 20px;
+      font-weight: medium;
+      color: #565759;
+      text-align: center;
+      margin-top: 3px; }
+
+  .aye-photo__mobil {
+    width: 80%;
+    margin: auto;
+    display: block; }
+
+  .aye-photo__desktop {
+    display: none; }
+
+  .information-text {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    margin: 10%; }
+
+  .contact {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 1%; }
+
+  .information-text__contact {
+    width: 80%;
+    height: auto;
+    text-align: center; }
+
+  .map {
+    width: 100%;
+    height: 359px;
+    margin: auto;
+    display: block;
+    margin-bottom: 3%;
+    margin-top: 3%; }
+
+  footer {
+    width: 100%;
+    height: auto;
+    background: #565759; }
+    footer p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #E7ECEF;
+      text-align: center;
+      padding: 3%; } }
+@media screen and (min-width: 601px) and (max-width: 799px) {
+  .menu-icon__menu {
+    display: none; }
+
+  .top-nav {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    background: #A3CEF1;
+    padding: 20px; }
+    .top-nav .top-list {
+      width: 100%;
+      height: 30%; }
+      .top-nav .top-list .top-nav-list {
+        width: 100%;
+        height: auto;
+        display: inline;
+        margin: 0 2%;
+        font-size: 20px;
+        font-weight: bold; }
+        .top-nav .top-list .top-nav-list .top-nav-link {
+          list-style: none;
+          text-decoration: none;
+          color: #565759; }
+
+  .fa-facebook-square {
+    width: 52px;
+    height: auto;
+    margin-left: 90%;
+    margin-top: 250px;
+    position: fixed; }
+
+  .fa-instagram-square {
+    width: 52px;
+    height: auto;
+    margin-left: 90%;
+    margin-top: 300px;
+    position: fixed; }
+
+  .logo__aye-empanadas {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    top: 8px;
+    position: relative; }
+
+  .logo {
+    width: 40%;
+    height: auto;
+    padding-top: 5%;
+    margin: auto;
+    display: block; }
+
+  .blue-line {
+    width: 50%;
+    height: auto;
+    border-bottom: 2px solid #A3CEF1;
+    margin: auto;
+    display: block;
+    margin-bottom: 3%; }
+
+  .box__empanadas--menu {
+    width: 100%;
+    height: auto; }
+
+  .box__empanadas {
+    width: 70%;
+    height: auto;
+    background: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 15%; }
+
+  .btn__box {
+    width: 100%;
+    height: 20px;
+    margin-top: 30%; }
+
+  .photo-empanadas {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block; }
+
+  .info__type-price {
+    text-align: center; }
+    .info__type-price h2 {
+      font-size: 20px;
+      font-weight: medium;
+      color: #565759;
+      text-align: center;
+      margin-top: 3px; }
+
+  .aye-photo__mobil {
+    display: none; }
+
+  .aye-photo__desktop {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: block; }
+
+  .information-text {
+    width: 60%;
+    height: auto;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    padding: 2%;
+    margin: auto;
+    display: block; }
+
+  .contact {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 1%; }
+
+  .information-text__contact {
+    width: 80%;
+    height: auto;
+    text-align: center; }
+
+  .map {
+    width: 80%;
+    height: 359px;
+    margin: auto;
+    display: block;
+    margin-bottom: 3%;
+    margin-top: 3%; }
+
+  footer {
+    width: 100%;
+    height: auto;
+    background: #565759; }
+    footer p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #E7ECEF;
+      text-align: center;
+      padding: 3%; } }
+@media screen and (min-width: 800px) {
+  .menu-icon__menu {
+    display: none; }
+
+  .top-nav {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    background: #A3CEF1;
+    padding: 20px;
+    z-index: -1; }
+    .top-nav .top-list {
+      width: 100%;
+      height: 30%; }
+      .top-nav .top-list .top-nav-list {
+        width: 100%;
+        height: auto;
+        display: inline;
+        margin: 0 2%;
+        font-size: 20px;
+        font-weight: bold; }
+        .top-nav .top-list .top-nav-list .top-nav-link {
+          list-style: none;
+          text-decoration: none;
+          color: #565759; }
+
+  .logo__aye-empanadas {
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    top: 8px;
+    position: relative; }
+
+  .logo {
+    width: 40%;
+    height: auto;
+    padding-top: 5%;
+    margin: auto;
+    display: block; }
+
+  .blue-line {
+    width: 50%;
+    height: auto;
+    border-bottom: 2px solid #A3CEF1;
+    margin: auto;
+    display: block;
+    margin-bottom: 3%; }
+
+  .box__empanadas--menu {
+    width: 95%;
+    height: auto;
+    margin: auto; }
+
+  .box__empanadas {
+    background: #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0.5%; }
+
+  .photo-empanadas {
+    width: 65%;
+    height: auto;
+    margin: auto;
+    display: block; }
+
+  .info__type-price {
+    text-align: center; }
+    .info__type-price h2 {
+      font-size: 20px;
+      font-weight: medium;
+      color: #565759;
+      text-align: center;
+      margin-top: 3px; }
+
+  .aye-photo__mobil {
+    display: none; }
+
+  .aye-photo__desktop {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: block; }
+
+  .information-text {
+    width: 60%;
+    height: auto;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    text-align: center;
+    padding: 2%;
+    margin: auto;
+    display: block; }
+
+  .contact {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 1%; }
+
+  .information-text__contact {
+    width: 80%;
+    height: auto;
+    text-align: center; }
+
+  .map {
+    width: 80%;
+    height: 359px;
+    margin: auto;
+    display: block;
+    margin-bottom: 3%;
+    margin-top: 3%; }
+
+  footer {
+    width: 100%;
+    height: auto;
+    background: #565759; }
+    footer p {
+      font-size: 18px;
+      font-weight: bold;
+      color: #E7ECEF;
+      text-align: center;
+      padding: 3%; }
+
+  .col-lg-1 {
+    width: 8.33%; }
+
+  .col-lg-2 {
+    width: 16.66%; }
+
+  .col-lg-3 {
+    width: 25%; }
+
+  .col-lg-4 {
+    width: 31.33%; }
+
+  .col-lg-5 {
+    width: 41.66%; }
+
+  .col-lg-6 {
+    width: 50%; }
+
+  .col-lg-7 {
+    width: 58.33%; }
+
+  .col-lg-8 {
+    width: 66.66%; }
+
+  .col-lg-9 {
+    width: 75%; }
+
+  .col-lg-10 {
+    width: 83.33%; }
+
+  .col-lg-11 {
+    width: 91.66%; }
+
+  .col-lg-12 {
+    width: 100%; } }
+body {
+  background: #E7ECEF; }
+
+html {
+  font-family: 'Poppins', sans-serif; }
+
+.nav-banner {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/*# sourceMappingURL=style.css.map */
