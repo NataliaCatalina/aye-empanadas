@@ -5,43 +5,72 @@
   }
 
 //--nav
+.nav-banner{
+  z-index: -1;
+  position: relative;
+}
+
   .top-nav{
+      // position: fixed;
     @include dimension(100%,auto);
-    display: block;
+    // display: block;
     text-align: center;
-    background: $color_light-blue;
+    // background: $color_light-blue;
     padding: 20px;
-    z-index: -1;
-      .top-list{
-      @include dimension(100%,30%);
-      .top-nav-list {
-        @include dimension(100%,auto);
-        display: inline;
-        margin: 0 2%;
-        font-size: 20px;
-        font-weight: bold;
-        .top-nav-link{
-        @include list(none,none,$color_gray)
-        }
-      }
-    }
+    // padding: 15px;
+    // position: sticky;
   }
-  .menu-icon__social{
+
+  .top-list{
+  // position: relative;
+  @include dimension(30%,30%);
+  background: $color_light-blue;
+
+  margin: auto;
+display: block;
+padding: 1%;
+border-radius: 10px;
+
+}
+
+  .top-nav-list {
+    @include dimension(100%,auto);
+    display: inline;
+
+    // left: 0px;
+    // top: 0px;
+    margin: 0 2%;
+
+    font-size: 20px;
+    font-weight: bold;
 
   }
 
-  // .fa-facebook-square{
-  //   @include dimension(52px,auto);
-  //   @include icons(95%,250px,fixed);
-  // }
-  //
-  // .fa-instagram-square{
-  //   @include dimension(52px,auto);
-  //   @include icons(95%,300px,fixed);
-  // }
+    .top-nav-link{
+
+      border-bottom: 4px dotted $color_light-white;
+
+      // z-index: 999;
+    @include list(none,none,$color_gray);
+    // z-index: 1;
+    // position: absolute;
+  }
+
+
+  .fa-facebook-square{
+    @include dimension(52px,auto);
+    @include icons(95%,250px,fixed);
+  }
+
+  .fa-instagram-square{
+    @include dimension(52px,auto);
+    @include icons(95%,300px,fixed);
+  }
 
   .logo__aye-empanadas{
-    @include dimension(100%,auto);
+    @include dimension(80%,auto);
+    @include center (auto,block);
+    // border: 1px solid red;
     margin-bottom: 80px;
     top: 8px;
     position: relative;
@@ -67,33 +96,45 @@
   // **************************EMPANADAS
 
   .box__empanadas--menu{
-    @include dimension(95%,auto);
+    @include dimension(75%,auto);
     margin: auto;
     }
 
+
   .box__empanadas {
     @include box($color_white,5px,10px);
+    @include dimension(28px,200px);
     margin: 0.5%;
     // border: 1px solid green;
-
-
   }
 
 
   .photo-empanadas{
-    @include dimension(65%,auto);
-    @include center (auto,block);
+    border: 1px solid red;
+    @include dimension(75%,auto);
+    // @include center (auto,block);
+    border-radius: 10px;
+    float: left;
+    margin: 2%;
+    // box-shadow: 10px 10px $color_gray;
 
   }
 
   .info__type-price{
+    border: 1px solid green;
     text-align: center;
-    h2{
-      @include fonts (20px,medium,$color_gray, center);
+    float: left;
+    margin: 0;
+      h2{
+      @include fonts (20px,bold,$color_gray, center);
       margin-top: 3px;
    }
   }
 
+  .itemPrice{
+    font-weight: normal;
+    font-size: 18px;
+  }
 
 
   //  ********************************** about

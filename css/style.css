@@ -50,7 +50,8 @@
   min-height: 100px; }
 
 .col {
-  float: left; }
+  float: left;
+  border: 1px solid yellow; }
 
 .col-1 {
   width: 8.33%; }
@@ -369,32 +370,58 @@
   .menu-icon__menu {
     display: none; }
 
+  .nav-banner {
+    z-index: -1;
+    position: relative; }
+
   .top-nav {
     width: 100%;
     height: auto;
-    display: block;
     text-align: center;
-    background: #A3CEF1;
-    padding: 20px;
-    z-index: -1; }
-    .top-nav .top-list {
-      width: 100%;
-      height: 30%; }
-      .top-nav .top-list .top-nav-list {
-        width: 100%;
-        height: auto;
-        display: inline;
-        margin: 0 2%;
-        font-size: 20px;
-        font-weight: bold; }
-        .top-nav .top-list .top-nav-list .top-nav-link {
-          list-style: none;
-          text-decoration: none;
-          color: #565759; }
+    padding: 20px; }
 
-  .logo__aye-empanadas {
+  .top-list {
+    width: 30%;
+    height: 30%;
+    background: #A3CEF1;
+    margin: auto;
+    display: block;
+    padding: 1%;
+    border-radius: 10px; }
+
+  .top-nav-list {
     width: 100%;
     height: auto;
+    display: inline;
+    margin: 0 2%;
+    font-size: 20px;
+    font-weight: bold; }
+
+  .top-nav-link {
+    border-bottom: 4px dotted #E7ECEF;
+    list-style: none;
+    text-decoration: none;
+    color: #565759; }
+
+  .fa-facebook-square {
+    width: 52px;
+    height: auto;
+    margin-left: 95%;
+    margin-top: 250px;
+    position: fixed; }
+
+  .fa-instagram-square {
+    width: 52px;
+    height: auto;
+    margin-left: 95%;
+    margin-top: 300px;
+    position: fixed; }
+
+  .logo__aye-empanadas {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: block;
     margin-bottom: 80px;
     top: 8px;
     position: relative; }
@@ -415,7 +442,7 @@
     margin-bottom: 3%; }
 
   .box__empanadas--menu {
-    width: 95%;
+    width: 75%;
     height: auto;
     margin: auto; }
 
@@ -423,22 +450,33 @@
     background: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
+    width: 28px;
+    height: 200px;
     margin: 0.5%; }
 
   .photo-empanadas {
-    width: 65%;
+    border: 1px solid red;
+    width: 75%;
     height: auto;
-    margin: auto;
-    display: block; }
+    border-radius: 10px;
+    float: left;
+    margin: 2%; }
 
   .info__type-price {
-    text-align: center; }
+    border: 1px solid green;
+    text-align: center;
+    float: left;
+    margin: 0; }
     .info__type-price h2 {
       font-size: 20px;
-      font-weight: medium;
+      font-weight: bold;
       color: #565759;
       text-align: center;
       margin-top: 3px; }
+
+  .itemPrice {
+    font-weight: normal;
+    font-size: 18px; }
 
   .aye-photo__mobil {
     display: none; }
