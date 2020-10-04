@@ -5,26 +5,54 @@
   }
 
 //--nav
+
+.nav-banner{
+  z-index: -1;
+  position: relative;
+}
+
   .top-nav{
     @include dimension(100%,auto);
-    display: block;
     text-align: center;
-    background: $color_light-blue;
     padding: 20px;
-      .top-list{
-      @include dimension(100%,30%);
-         .top-nav-list {
-        @include dimension(100%,auto);
-        display: inline;
-        margin: 0 2%;
-        font-size: 20px;
-        font-weight: bold;
-        .top-nav-link{
-          @include list(none,none,$color_gray)
-        }
-      }
-    }
   }
+
+  .top-list{
+  // position: relative;
+  @include dimension(50%,30%);
+  background: $color_light-blue;
+
+  margin: auto;
+display: block;
+padding: 1%;
+border-radius: 10px;
+
+}
+
+  .top-nav-list {
+    @include dimension(100%,auto);
+    display: inline;
+
+    // left: 0px;
+    // top: 0px;
+    margin: 0 2%;
+
+    font-size: 20px;
+    font-weight: bold;
+
+  }
+
+    .top-nav-link{
+
+      border-bottom: 4px dotted $color_light-white;
+
+      // z-index: 999;
+    @include list(none,none,$color_gray);
+    // z-index: 1;
+    // position: absolute;
+  }
+
+
 
   .fa-facebook-square{
     @include dimension(52px,auto);
@@ -71,14 +99,17 @@
        margin-left: 15%;
    }
 
-   .btn__box{
-    @include dimension(100%,20px);
-    margin-top: 30%;
-   }
+
 
    .photo-empanadas{
-     @include dimension(80%,auto);
-     @include center (auto,block);
+     border: 1px solid red;
+     @include dimension(75%,auto);
+     // @include center (auto,block);
+     border-radius: 10px;
+     float: left;
+     margin: 2%;
+     // box-shadow: 10px 10px $color_gray;
+
    }
 
    .info__type-price{
@@ -140,5 +171,19 @@
       padding: 3%;
       }
   }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
 
 } //end of Tablet screen

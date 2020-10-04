@@ -103,27 +103,27 @@ border-radius: 10px;
 
   .box__empanadas {
     @include box($color_white,5px,10px);
-    @include dimension(28px,200px);
+    @include dimension(28px,auto);
     margin: 0.5%;
     // border: 1px solid green;
   }
 
 
   .photo-empanadas{
-    border: 1px solid red;
+    // border: 1px solid red;
     @include dimension(75%,auto);
-    // @include center (auto,block);
     border-radius: 10px;
     float: left;
     margin: 2%;
-    // box-shadow: 10px 10px $color_gray;
 
   }
 
   .info__type-price{
-    border: 1px solid green;
+    // border: 1px solid green;
     text-align: center;
     float: left;
+    // margin-right: 5px;
+    padding-top: 15px;
     margin: 0;
       h2{
       @include fonts (20px,bold,$color_gray, center);
@@ -146,6 +146,7 @@ border-radius: 10px;
   .aye-photo__desktop{
     @include dimension(60%,auto);
     @include center (auto,block);
+    border-radius: 10px;
   }
 
   .information-text{
@@ -175,6 +176,7 @@ border-radius: 10px;
     @include center (auto,block);
     margin-bottom: 3%;
     margin-top: 3%;
+    border-radius: 10px;
   }
 
   // ********************************* footer

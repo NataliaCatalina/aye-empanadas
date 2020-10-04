@@ -75,15 +75,18 @@ a:hover{
    margin-left: 15%;
  }
 
-.btn__box{
-  @include dimension(100%,20px);
-  margin-top: 30%;
-}
 
-.photo-empanadas{
-  @include dimension(80%,auto);
-  @include center (auto,block);
-}
+
+ .photo-empanadas{
+   border: 1px solid red;
+   @include dimension(75%,auto);
+   border-radius: 10px;
+   float: left;
+   margin: 2%;
+
+   // box-shadow: 10px 10px $color_gray;
+
+ }
 
  .info__type-price{
    text-align: center;
