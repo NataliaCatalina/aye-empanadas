@@ -103,7 +103,9 @@ border-radius: 10px;
 
   .box__empanadas {
     @include box($color_white,5px,10px);
-    @include dimension(28px,auto);
+    // @include dimension(28px,auto);
+    width: 55px;
+    height: 250px;
     margin: 0.5%;
     // border: 1px solid green;
   }
