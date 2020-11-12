@@ -51,7 +51,6 @@ a:hover{
 }
 
 
-
 // **************MENU SECTION
 
 
@@ -78,14 +77,10 @@ a:hover{
 
 
  .photo-empanadas{
-   border: 1px solid red;
    @include dimension(75%,auto);
    border-radius: 10px;
    float: left;
    margin: 2%;
-
-   // box-shadow: 10px 10px $color_gray;
-
  }
 
  .info__type-price{

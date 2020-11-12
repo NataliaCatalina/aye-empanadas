@@ -1,5 +1,4 @@
 @media screen and (min-width: 800px) {
-
   .menu-icon__menu{
     display: none;
   }
@@ -11,51 +10,32 @@
 }
 
   .top-nav{
-      // position: fixed;
-    @include dimension(100%,auto);
-    // display: block;
+      @include dimension(100%,auto);
     text-align: center;
-    // background: $color_light-blue;
     padding: 20px;
-    // padding: 15px;
-    // position: sticky;
   }
 
   .top-list{
-  // position: relative;
   @include dimension(30%,30%);
   background: $color_light-blue;
-
   margin: auto;
-display: block;
-padding: 1%;
-border-radius: 10px;
-
+  display: block;
+  padding: 1%;
+  border-radius: 10px;
 }
 
   .top-nav-list {
     @include dimension(100%,auto);
     display: inline;
-
-    // left: 0px;
-    // top: 0px;
     margin: 0 2%;
-
     font-size: 20px;
     font-weight: bold;
-
   }
 
     .top-nav-link{
-
       border-bottom: 4px dotted $color_light-white;
-
-      // z-index: 999;
-    @include list(none,none,$color_gray);
-    // z-index: 1;
-    // position: absolute;
+      @include list(none,none,$color_gray);
   }
-
 
   .fa-facebook-square{
     @include dimension(52px,auto);
@@ -70,7 +50,6 @@ border-radius: 10px;
   .logo__aye-empanadas{
     @include dimension(80%,auto);
     @include center (auto,block);
-    // border: 1px solid red;
     margin-bottom: 80px;
     top: 8px;
     position: relative;
@@ -103,28 +82,22 @@ border-radius: 10px;
 
   .box__empanadas {
     @include box($color_white,5px,10px);
-    // @include dimension(28px,auto);
     width: 55px;
     height: 250px;
     margin: 0.5%;
-    // border: 1px solid green;
   }
 
 
   .photo-empanadas{
-    // border: 1px solid red;
     @include dimension(75%,auto);
     border-radius: 10px;
     float: left;
     margin: 2%;
-
   }
 
   .info__type-price{
-    // border: 1px solid green;
     text-align: center;
     float: left;
-    // margin-right: 5px;
     padding-top: 15px;
     margin: 0;
       h2{

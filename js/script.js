@@ -1,6 +1,3 @@
-console.log('js');
-
-
 $('#drop-nav').hide();
 
 $(document).ready(function(){
